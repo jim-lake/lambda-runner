@@ -1,4 +1,4 @@
-#!node
+#!/usr/bin/env node
 
 const { Buffer } = require('node:buffer');
 const crypto = require('node:crypto');
