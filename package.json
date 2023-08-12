@@ -1,0 +1,28 @@
+{
+  "name": "lambda-runner",
+  "version": "0.0.1",
+  "description": "Lambda function runner for local node",
+  "main": "src/index.js",
+  "bin": "./src/index.js",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "pretty": "prettier --write src test",
+    "lint": "eslint src",
+    "test": "node src/index.js test/simple_function.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jim-lake/lambda-runner.git"
+  },
+  "author": "github.com/jim-lake",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jim-lake/lambda-runner/issues"
+  },
+  "homepage": "https://github.com/jim-lake/lambda-runner#readme",
+  "dependencies": {
+    "luxon": "3.4.0"
+  }
+}
