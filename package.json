@@ -1,6 +1,6 @@
 {
   "name": "lambda-runner",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lambda function runner for local node",
   "main": "src/index.js",
   "bin": "./src/index.js",

@@ -130,7 +130,6 @@ function run(port, handler) {
             if (has_origin && g_corsResponse) {
               headers = _mergeHeaders(headers, g_corsResponse);
             }
-            console.log(headers);
             res.writeHead(response.statusCode ?? 200, headers);
             res.end(res_body);
           },
