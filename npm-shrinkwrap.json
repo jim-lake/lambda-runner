@@ -1,15 +1,18 @@
 {
   "name": "lambda-runner",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "lambda-runner",
-      "version": "0.0.1",
+      "version": "0.0.3",
       "license": "MIT",
       "dependencies": {
         "luxon": "3.4.0"
+      },
+      "bin": {
+        "lambda-runner": "src/index.js"
       }
     },
     "node_modules/luxon": {
